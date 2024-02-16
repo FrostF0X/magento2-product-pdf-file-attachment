@@ -37,7 +37,7 @@ class InstallData implements InstallDataInterface
                 'label' => 'Attachment File',
                 'input' => 'file',
                 'backend' => 'MagePsycho\ProductAttachment\Model\Product\Attribute\Backend\File',
-                'global' => ScopedAttributeInterface::SCOPE_GLOBAL,
+                'global' => ScopedAttributeInterface::SCOPE_STORE,
             ],
             'mp_attachment_label' => [
                 'label' => 'Attachment Label',
